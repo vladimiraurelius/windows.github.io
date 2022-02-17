@@ -91,6 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
         popup.classList.remove('popup--active');        
 
         container.classList.remove('container--blocked');
+        onActiveLink(1);
+        scrollToPlace();
     }
 
     function createPopupContent(item) {

@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let imageLength = item.dataset.length;
         
 
-        for(let i=1; i<imageLength; i++){
+        for(let i=1; i<=imageLength; ++i){
             let popupPhoto = document.createElement('img');
             popupPhoto.classList.add('popup__img');
             popupPhoto.alt = 'photo';
